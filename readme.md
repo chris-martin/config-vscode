@@ -1,0 +1,1 @@
+Clone at `~/.config/Code`.
