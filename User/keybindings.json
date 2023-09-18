@@ -1,0 +1,357 @@
+[
+  {
+    "command": "-subwordNavigation.deleteSubwordLeft",
+    "key": "alt+backspace",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "command": "-subwordNavigation.deleteSubwordRight",
+    "key": "alt+delete",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "command": "-editor.action.moveLinesDownAction",
+    "key": "alt+down",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "command": "editor.action.insertCursorBelow",
+    "key": "alt+down",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "-subwordNavigation.cursorSubwordLeft",
+    "key": "alt+left",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "workbench.action.previousEditor",
+    "key": "alt+left"
+  },
+  {
+    "command": "-keybindings.editor.toggleSortByPrecedence",
+    "key": "alt+p",
+    "when": "inKeybindings"
+  },
+  {
+    "command": "editor.action.replaceOne",
+    "key": "alt+p",
+    "when": "editorFocus && findWidgetVisible"
+  },
+  {
+    "command": "search.action.replace",
+    "key": "alt+p",
+    "when": "matchFocus && replaceActive && searchViewletVisible"
+  },
+  {
+    "command": "-subwordNavigation.cursorSubwordRight",
+    "key": "alt+right",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "workbench.action.nextEditor",
+    "key": "alt+right"
+  },
+  {
+    "command": "-editor.action.moveLinesUpAction",
+    "key": "alt+up",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "command": "editor.action.insertCursorAbove",
+    "key": "alt+up",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "key": "ctrl+`",
+    "when": "terminal.active"
+  },
+  {
+    "command": "-editor.action.replaceAll",
+    "key": "ctrl+alt+enter",
+    "when": "editorFocus && findWidgetVisible"
+  },
+  {
+    "command": "-search.action.replaceAll",
+    "key": "ctrl+alt+enter",
+    "when": "replaceActive && searchViewletVisible && !findWidgetVisible"
+  },
+  {
+    "command": "workbench.action.toggleZenMode",
+    "key": "ctrl+alt+z"
+  },
+  {
+    "command": "subwordNavigation.deleteSubwordLeft",
+    "key": "ctrl+backspace",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "command": "subwordNavigation.deleteSubwordRight",
+    "key": "ctrl+delete",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "command": "-cursorBottom",
+    "key": "ctrl+end",
+    "when": "textInputFocus"
+  },
+  {
+    "command": "editor.action.replaceAll",
+    "key": "ctrl+enter",
+    "when": "editorFocus && findWidgetVisible"
+  },
+  {
+    "command": "search.action.replaceAll",
+    "key": "ctrl+enter",
+    "when": "replaceActive && searchViewletVisible && !findWidgetVisible"
+  },
+  {
+    "command": "-editor.action.startFindReplaceAction",
+    "key": "ctrl+h"
+  },
+  {
+    "command": "-cursorTop",
+    "key": "ctrl+home",
+    "when": "textInputFocus"
+  },
+  {
+    "command": "-workbench.action.toggleZenMode",
+    "key": "ctrl+k z"
+  },
+  {
+    "command": "workbench.action.terminal.toggleTerminal",
+    "key": "ctrl+k",
+    "when": "terminal.active"
+  },
+  {
+    "command": "subwordNavigation.cursorSubwordLeft",
+    "key": "ctrl+left",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "-workbench.action.files.openFile",
+    "key": "ctrl+o",
+    "when": "true"
+  },
+  {
+    "command": "-workbench.action.files.openFileFolder",
+    "key": "ctrl+o",
+    "when": "isMacNative && openFolderWorkspaceSupport"
+  },
+  {
+    "command": "-workbench.action.files.openFolderViaWorkspace",
+    "key": "ctrl+o",
+    "when": "!openFolderWorkspaceSupport && workbenchState == 'workspace'"
+  },
+  {
+    "command": "-workbench.action.files.openLocalFile",
+    "key": "ctrl+o",
+    "when": "remoteFileDialogVisible"
+  },
+  {
+    "command": "-workbench.action.nextEditor",
+    "key": "ctrl+pagedown"
+  },
+  {
+    "command": "-workbench.action.previousEditor",
+    "key": "ctrl+pageup"
+  },
+  {
+    "command": "-workbench.action.quit",
+    "key": "ctrl+q"
+  },
+  {
+    "command": "-workbench.action.reloadWindow",
+    "key": "ctrl+r",
+    "when": "isDevelopment"
+  },
+  {
+    "command": "editor.action.startFindReplaceAction",
+    "key": "ctrl+r"
+  },
+  {
+    "command": "subwordNavigation.cursorSubwordRight",
+    "key": "ctrl+right",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "-workbench.action.files.save",
+    "key": "ctrl+s"
+  },
+  {
+    "command": "workbench.action.files.saveAll",
+    "key": "ctrl+s"
+  },
+  {
+    "command": "workbench.action.terminal.kill",
+    "key": "ctrl+w",
+    "when": "terminalFocus"
+  },
+  {
+    "command": "editor.action.deleteLines",
+    "key": "ctrl+y",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "command": "-workbench.action.terminal.new",
+    "key": "ctrl+shift+`"
+  },
+  {
+    "command": "-editor.action.replaceOne",
+    "key": "ctrl+shift+1",
+    "when": "editorFocus && findWidgetVisible"
+  },
+  {
+    "command": "-search.action.replace",
+    "key": "ctrl+shift+1",
+    "when": "matchFocus && replaceActive && searchViewletVisible"
+  },
+  {
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "key": "ctrl+shift+c",
+    "when": "!terminalFocus"
+  },
+  {
+    "command": "-editor.action.insertCursorBelow",
+    "key": "ctrl+shift+down",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "editor.action.moveLinesDownAction",
+    "key": "ctrl+shift+down",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "command": "-workbench.action.replaceInFiles",
+    "key": "ctrl+shift+h"
+  },
+  {
+    "command": "-editor.action.deleteLines",
+    "key": "ctrl+shift+k",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "command": "subwordNavigation.cursorSubwordLeftSelect",
+    "key": "ctrl+shift+left",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "workbench.action.replaceInFiles",
+    "key": "ctrl+shift+r"
+  },
+  {
+    "command": "subwordNavigation.cursorSubwordRightSelect",
+    "key": "ctrl+shift+right",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "-editor.action.insertCursorAbove",
+    "key": "ctrl+shift+up",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "editor.action.moveLinesUpAction",
+    "key": "ctrl+shift+up",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "command": "-editor.action.insertCursorBelow",
+    "key": "shift+alt+down",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "-subwordNavigation.cursorSubwordLeftSelect",
+    "key": "shift+alt+left",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "-subwordNavigation.cursorSubwordRightSelect",
+    "key": "shift+alt+right",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "-editor.action.insertCursorAbove",
+    "key": "shift+alt+up",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "editor.action.previousMatchFindAction",
+    "key": "up",
+    "when": "editorFocus && findInputFocussed"
+  },
+  {
+    "command": "editor.action.previousMatchFindAction",
+    "key": "up",
+    "when": "editorFocus && replaceInputFocussed"
+  },
+  {
+    "command": "editor.action.nextMatchFindAction",
+    "key": "down",
+    "when": "editorFocus && findInputFocussed"
+  },
+  {
+    "command": "editor.action.nextMatchFindAction",
+    "key": "down",
+    "when": "editorFocus && replaceInputFocussed"
+  },
+  {
+    "command": "-editor.action.previousMatchFindAction",
+    "key": "shift+enter",
+    "when": "editorFocus && findInputFocussed"
+  },
+  {
+    "command": "editor.action.nextMatchFindAction",
+    "key": "enter",
+    "when": "editorFocus && findInputFocussed"
+  },
+  {
+    "command": "-editor.action.nextMatchFindAction",
+    "key": "f3",
+    "when": "editorFocus"
+  },
+  {
+    "command": "-editor.action.previousMatchFindAction",
+    "key": "shift+f3",
+    "when": "editorFocus"
+  },
+  {
+    "command": "-debug.openView",
+    "key": "f5",
+    "when": "!debuggersAvailable"
+  },
+  {
+    "command": "-vscode-postgres.runQuery",
+    "key": "f5",
+    "when": "editorLangId == 'postgres'"
+  },
+  {
+    "command": "-workbench.action.debug.continue",
+    "key": "f5",
+    "when": "debugState == 'stopped'"
+  },
+  {
+    "command": "-workbench.action.debug.continue",
+    "key": "f5",
+    "when": "inDebugMode"
+  },
+  {
+    "command": "-workbench.action.debug.start",
+    "key": "f5",
+    "when": "!inDebugMode"
+  },
+  {
+    "command": "-workbench.action.debug.start",
+    "key": "f5",
+    "when": "debuggersAvailable && debugState == 'inactive'"
+  },
+  {
+    "command": "haskell.commands.restartServer",
+    "key": "f5"
+  },
+  {
+    "command": "-editor.action.revealDefinition",
+    "key": "f12",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  }
+]
